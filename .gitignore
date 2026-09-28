@@ -1,0 +1,29 @@
+# ---------- Python temporary files ----------
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ---------- Jupyter notebook checkpoints ----------
+.ipynb_checkpoints/
+
+# ---------- Virtual environments ----------
+venv/
+.venv/
+env/
+
+# ---------- Large model file (over GitHub's size limit) ----------
+# Recreate with: python -m src.train
+models/KNN.joblib
+
+# ---------- Editor / OS files ----------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- Streamlit secrets ----------
+.streamlit/secrets.toml
+
+# ---------- Local upload/temp folders ----------
+upload/
